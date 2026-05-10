@@ -1,0 +1,117 @@
+.directions-page {
+  padding-top: 150px;
+}
+
+.page-title {
+  text-align: center;
+  font-family: 'LCD';
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.page-subtitle {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto 60px;
+  color: #E9E9E9;
+}
+
+/* GRID ОСНОВА */
+
+.courses {
+  display: grid;
+  gap: 40px;
+}
+
+/* КАРТОЧКА */
+
+.course {
+  background: #3A5169;
+  border-radius: 30px;
+  padding: 30px 40px;
+}
+
+.course h2 {
+  font-family: 'LCD';
+  margin-bottom: 20px;
+}
+
+/* ВНУТРЕННИЙ GRID */
+
+.course-grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+/* HEX */
+
+.hex {
+  width: 140px;
+  height: 140px;
+  background: #5f8fb8;
+  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hex img {
+  width: 70px;
+}
+
+/* INFO */
+
+.right p {
+  margin-bottom: 15px;
+}
+
+.teacher {
+  background: #15689B;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.classes {
+  margin-bottom: 20px;
+}
+
+.classes span {
+  background: #15689B;
+  padding: 5px 15px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+/* BUTTONS */
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  background: #1E7DB8;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.outline {
+  background: #1E7DB8;
+}
+
+/* HOVER */
+
+.course {
+  transition: 0.3s;
+}
+
+.course:hover {
+  transform: translateY(-5px);
+}
