@@ -16,14 +16,10 @@
   color: #E9E9E9;
 }
 
-/* GRID ОСНОВА */
-
 .courses {
   display: grid;
   gap: 40px;
 }
-
-/* КАРТОЧКА */
 
 .course {
   background: #3A5169;
@@ -36,7 +32,6 @@
   margin-bottom: 20px;
 }
 
-/* ВНУТРЕННИЙ GRID */
 
 .course-grid {
   display: grid;
@@ -45,7 +40,6 @@
   align-items: center;
 }
 
-/* HEX */
 
 .hex {
   width: 140px;
@@ -61,7 +55,6 @@
   width: 70px;
 }
 
-/* INFO */
 
 .right p {
   margin-bottom: 15px;
@@ -86,7 +79,6 @@
   margin-left: 10px;
 }
 
-/* BUTTONS */
 
 .buttons {
   display: flex;
@@ -106,7 +98,6 @@ button.outline {
   background: #1E7DB8;
 }
 
-/* HOVER */
 
 .course {
   transition: 0.3s;
